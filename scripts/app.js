@@ -13,7 +13,7 @@
 
   //  Meal config
   const mealTypes = ["Breakfast", "Snack", "Lunch", "Dinner", "Late Snack"];
-  const mealGuide = ["Breakfast", "Snack", "Lunch", "Snack", "Dinner", "Late Snack", "Breakfast", "Snack", "Lunch", "Snack", "Dinner", "Late Snack"];
+  const mealGuide = ["Breakfast", "Snack", "Lunch", "Snack", "Dinner", "Late Snack"];
   var mealInventory = [];
   var mealPlan = [];
 
