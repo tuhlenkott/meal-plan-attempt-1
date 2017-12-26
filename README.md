@@ -18,9 +18,7 @@ If you're interested in having the app generate random meals based on your diet,
 
 5. Publish site
 
-PS — I highly recommend hosting on [Netlify](https://www.netlify.com/). All you have to do is create an account, create a new project, and link the GitHub repo with your Netlify project. The site will automatically update with `git push origin master`.
-
-If you have any questions or suggestions let me know [@claudiovallejop](https://twitter.com/claudiovallejop).
+Please Note: I am using the version created by [@claudiovallejop](https://twitter.com/claudiovallejop). I am simply trying to modify what he created to fit my purposes. So I've left his original instructions as is. 
 
 # Sample Meal API
 ```json
