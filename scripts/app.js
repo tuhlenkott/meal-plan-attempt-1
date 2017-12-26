@@ -12,14 +12,14 @@
   $container.removeChild($mealTemplate);
 
   //  Meal config
-  const mealTypes = ["Snack", "Breakfast", "Lunch", "Dinner", "Late Snack"];
-  const mealGuide = ["Snack", "Breakfast", "Lunch", "Snack", "Dinner", "Late Snack"];
+  const mealTypes = ["Breakfast", "Snack", "Lunch", "Dinner", "Late Snack"];
+  const mealGuide = ["Breakfast", "Snack", "Lunch", "Snack", "Dinner", "Late Snack"];
   var mealInventory = [];
   var mealPlan = [];
 
   //  Meal Data config
   var req = new XMLHttpRequest();
-  req.open("GET", "https://raw.githubusercontent.com/claudiovallejo/meal-app/master/data/meals.json");
+  req.open("GET", "https://raw.githubusercontent.com/tuhlenkott/meal-plan-attempt-1/master/data/meals.json");
   req.send();
   req.addEventListener("load", function() {
     dataCataloger(JSON.parse(this.responseText));
